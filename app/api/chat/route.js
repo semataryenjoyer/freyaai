@@ -55,7 +55,7 @@ export async function POST(req) {
       ],
       stream: true,
       max_tokens: 4096,
-      temperature: 5,
+      temperature: 1.3,
     })
 
     const encoder = new TextEncoder()
